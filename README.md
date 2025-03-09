@@ -1,16 +1,35 @@
-Note: When deleting a name it will delete copies of names on other units.
+## Events Counter by kamofny
 
-Add a name:
-If a person is missing add the name and select unit.
+Project focused on adding peoples attendence to group of events based on date. Each month is then setup in an excel file.
 
-Events:+
-Pick an event to count people. This opens a new window:
-    Unit: This puts the people in seperate categories
-    delete: This will delete the person and all records
-    attended: This will add then to the counter
+## Features
+- **Add a Name**: If a person is missing, add their name and assign them to a unit.
+- **Delete a Name**: Deleting a name will remove all copies of that name across different units.
+- **Track Events**:  
+  - Select an event to count people.  
+  - **Unit**: Categorizes people into separate groups.  
+  - **Delete**: Removes the person and all their records.  
+  - **Attended**: Adds them to the event counter. 
 
-Day:
-Click day and all events will be saved. This will delete selections.
+- **Day**: Click "Day" to save all event records. This will also clear the current selections.  
+- **Month**: Click "Month" to export data to an Excel file and reset local records.  
 
-Month:
-Click month and it will transfer to excel file and reset local files.
+### Installation
+
+1. Clone repository.
+```
+git clone https://github.com/kamofny/events-counter.git
+```
+
+2. Install requirements
+```
+pip install -r requirements.txt
+```
+
+3. run the application.
+```
+py act_tracker.py
+```
+
+### Usage
+Look at features. This application is meant to be made into exe. Instructions and installation of exe coming soon.
